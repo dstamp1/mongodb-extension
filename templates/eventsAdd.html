@@ -1,0 +1,29 @@
+{% extends 'base.html'%}
+
+{% block title%}{% endblock %}
+
+{% block content%}
+
+<div class="container">
+  <div class="col">
+    <form method="POST" action="{{url_for('events_add')}}">
+      <div class="form-row">
+        <div class="form-group col-6">
+          <label for="eventName">Event Name</label>
+          <input type="text" class="form-control" name="eventName">
+        </div>
+
+        <div class="form-group col-6">
+          <label for="eventDate">Event Date</label>
+          <input type="date" class="form-control" name="eventDate">
+        </div>
+
+        <div class="form-group col-12">
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
