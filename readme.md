@@ -32,6 +32,7 @@ You will be able to practice
 - Filter by User
 - Calculate average rating for a book
 - Calculate the [Net Promotor](https://en.wikipedia.org/wiki/Net_Promoter) score for a book
+- And anything else
 
 ## Additional Flask Features Included
 - `url_for()` - This function takes at least one argument and any number of keyword arguments. The first argument is a string that matches the name of a route function (the function name, not the route decorator). The additional keyword arguments can be used to pass information that is a route parameter. Using url_for is a best practice when creating links within your flask_app to other routes of your flask_app
