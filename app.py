@@ -1,4 +1,3 @@
-# ---- YOUR APP STARTS HERE ----
 # -- Import section --
 from flask import Flask
 from flask import render_template
@@ -10,6 +9,8 @@ from flask_pymongo import PyMongo
 import os
 from dotenv import load_dotenv
 import datetime
+
+import model
 
 load_dotenv()
 
